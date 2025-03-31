@@ -9,7 +9,7 @@
 | Cout5, Cin3      | 2        | 47uF   | 805       | TAIYO YUDEN  | $0.731 | $1.46  | [Link](https://cz.mouser.com/ProductDetail/TAIYO-YUDEN/MLASL21GBB5476MTNA01?qs=tlsG/Ow5FFgOkGqgSpO4Uw==) |
 | Cinx1            | 1        | 100nF  | 805       | MuRata       | $0.311 | $0.31  | [Link](https://cz.mouser.com/ProductDetail/Murata-Electronics/GCM21BR71H104KA37L?qs=HH0X151LQklyB3m9dD31Bw%3D%3D) |
 | Cin1, Cin2       | 2        | 10uF   | 805       | MuRata       | $0.151 | $0.30  | [Link](https://cz.mouser.com/ProductDetail/Murata-Electronics/GRM21BR61E106MA73L?qs=2W5sgKM%2F371odLMyCilkag%3D%3D&utm_id=9873308831&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=CjwKCAjw-qi_BhBxEiwAkxvbkB1r2SfjgGCUguh6nqfyVJQ4) |
-| Css1             | 1        | 22nF   | 402       | MuRata       | $0.100 | $0.10  | [Link](https://rb.gy/cotiv2) |
+| Css1             | 1        | 22nF   | 402       | MuRata       | $0.100 | $0.10  | [Link](https://cz.mouser.com/ProductDetail/Murata-Electronics/GRM155R71C223KA01D?qs=8YPuuxuUzMJOdYmPBbOzng%3D%3D&srsltid=AfmBOopKZbYTZPXVBd1fVLYloSIZ5jRB7w1JHnxa3LlICkUDQTlAfs9a) |
 
 ### ICs
 
@@ -22,18 +22,18 @@
 
 | Reference | Quantity | Value | Footprint      | Manufacturer | Price  | Total  | Link |
 |-----------|----------|--------|----------------|--------------|--------|--------|------|
-| L1        | 1        | 4.7uH  | MSS1048472NLC | Coilcraft    | $2.990 | $2.99  | [Link](Link ) |
+| L1        | 1        | 4.7uH  | MSS1048472NLC | Coilcraft    | $2.990 | $2.99  | [Link](https://cz.mouser.com/ProductDetail/Coilcraft/MSS1048-472NLC?qs=zCSbvcPd3pYtZ57pXl6AJA%3D%3D) |
 
 ### Resistors
 
 | Reference                | Quantity | Value     | Footprint | Manufacturer | Price  | Total  | Link |
 |--------------------------|----------|-----------|-----------|--------------|--------|--------|------|
-| Rpg1, Rpg2, Ren1         | 3        | 100kOhm   | 402       | VishayDale   | $0.100 | $0.30  | [Link](https://rb.gy/v3w84l) |
-| Rfbt1                    | 1        | 30 kOhms  | 603       | YAGEO        | $0.111 | $0.11  | [Link](Link) |
-| Rfbb1                    | 1        | 5.23 kOhms| 402       | VishayDale   | $0.100 | $0.10  | [Link](Link) |
-| Cnr/ss1, Cff2            | 2        | 10nF      | 805       | KYOCERA AVX  | $0.340 | $0.68  | [Link](Link) |
-| R2                       | 1        | 2.87kOhm  | 805       | VishayDale   | $0.100 | $0.10  | [Link](Link) |
-| R2                       | 1        | 12.1kOhm  | 805       | VishayDale   | $0.100 | $0.10  | [Link](Link) |
-| Rmode1                   | 1        | 30.1kOhm  | 805       | KOA Speer    | $0.233 | $0.23  | [Link](Link) |
+| Rpg1, Rpg2, Ren1         | 3        | 100kOhm   | 402       | VishayDale   | $0.100 | $0.30  | [Link](https://cz.mouser.com/ProductDetail/Vishay-Dale/CRCW0402100KFKED?qs=OlqPY1CiralZGKRwQ4Glcg%3D%3D&srsltid=AfmBOoqTmZ_JYb3DtYMJrt0NnF8wLxRnCDKtP0Pn0HWQ2hI7fz9gGto3) |
+| Rfbt1                    | 1        | 30 kOhms  | 603       | YAGEO        | $0.111 | $0.11  | [Link](https://cz.mouser.com/ProductDetail/YAGEO/RC0603FR-0730KL?qs=diQw95jMAeNFr44yr782FQ%3D%3D) |
+| Rfbb1                    | 1        | 5.23 kOhms| 402       | VishayDale   | $0.100 | $0.10  | [Link](https://cz.mouser.com/ProductDetail/Vishay-Dale/CRCW04025K23FKED?qs=VIm1wxVVEMYnUzBh5S257Q%3D%3D&srsltid=AfmBOoq_m7CmePoUqB7P1O8vwGh9XsbqouG1ETWfWpiRwqmOF98bJfvN) |
+| Cnr/ss1, Cff2            | 2        | 10nF      | 805       | KYOCERA AVX  | $0.340 | $0.68  | [Link](https://cz.mouser.com/ProductDetail/KYOCERA-AVX/KAF21BR72A103JT?qs=sGAEpiMZZMsh%252B1woXyUXj17cMikWvs6/Xnd4zYcRmjU%3D) |
+| R2                       | 1        | 2.87kOhm  | 805       | VishayDale   | $0.100 | $0.10  | [Link](https://cz.mouser.com/ProductDetail/Vishay-Dale/CRCW08052K87FKEA?qs=YsYeyRVmgbSWhTUw36bQxw%3D%3D) |
+| R1                       | 1        | 12.1kOhm  | 805       | VishayDale   | $0.100 | $0.10  | [Link](https://cz.mouser.com/ProductDetail/Vishay-Dale/CRCW080512K1FKTA?qs=f9V0R1Mtsf0Yr4%252BYyWfajQ%3D%3D) |
+| Rmode1                   | 1        | 30.1kOhm  | 805       | KOA Speer    | $0.233 | $0.23  | [Link](https://cz.mouser.com/ProductDetail/KOA-Speer/SG73P2ARTTD3012F?qs=Y0Uzf4wQF3ldSzmG%252BQ6ZTQ%3D%3D) |
 
 **Total Cost: $13.74**
