@@ -3,12 +3,12 @@
 | Reference         | Quantity | Value | Footprint | Manufacturer | Price  | Total  | Link |
 |------------------|----------|--------|-----------|--------------|--------|--------|------|
 | Cff1             | 1        | 150pF  | 603       | KEMET        | $0.100 | $0.10  | [Link](https://cz.mouser.com/ProductDetail/Coilcraft/MSS1048-472NLC?qs=zCSbvcPd3pYtZ57pXl6AJA==) |
-| Cout1,Cout2      | 2        | 47uF   | 1206      | TDK          | $0.871 | $1.74  | [Link](Link) |
-| Cout3,Cout4      | 2        | 10uF   | 805       | TAIYO YUDEN  | $0.271 | $0.54  | [Link](Link) |
-| Cboot1           | 1        | 100nF  | 402       | Murata       | $0.100 | $0.10  | [Link](https://rb.gy/s34zjx) |
-| Cout5, Cin3      | 2        | 47uF   | 805       | TAIYO YUDEN  | $0.731 | $1.46  | [Link](Link) |
-| Cinx1            | 1        | 100nF  | 805       | MuRata       | $0.311 | $0.31  | [Link](https://rb.gy/9jvdmj) |
-| Cin1, Cin2       | 2        | 10uF   | 805       | MuRata       | $0.151 | $0.30  | [Link](https://rb.gy/tncwu1) |
+| Cout1,Cout2      | 2        | 47uF   | 1206      | TDK          | $0.871 | $1.74  | [Link](https://cz.mouser.com/ProductDetail/TDK/C3216X5R1E476M160AC?qs=NRhsANhppD%252BqapdVvBvu4Q==&srsltid=AfmBOor88IGo2mjg-f-txSOgmiz3VlLcC2h3cQ0RLT6DnEcd4U3pO5sj) |
+| Cout3,Cout4      | 2        | 10uF   | 805       | TAIYO YUDEN  | $0.271 | $0.54  | [Link](https://cz.mouser.com/ProductDetail/TAIYO-YUDEN/TMK212BBJ106MGHT?qs=sBf/b4nBSlfab8x4Ir6OCA==) |
+| Cboot1           | 1        | 100nF  | 402       | Murata       | $0.100 | $0.10  | [Link](https://cz.mouser.com/ProductDetail/Murata-Electronics/GRM155R71C104KA88D?qs=8YPuuxuUzMJKePo9sU3A2g%3D%3D&utm_id=9873308831&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=CjwKCAjw-qi_BhBxEiwAkxvbkJHtv_fnE6-DNd9ofbrwdIR4ar) |
+| Cout5, Cin3      | 2        | 47uF   | 805       | TAIYO YUDEN  | $0.731 | $1.46  | [Link](https://cz.mouser.com/ProductDetail/TAIYO-YUDEN/MLASL21GBB5476MTNA01?qs=tlsG/Ow5FFgOkGqgSpO4Uw==) |
+| Cinx1            | 1        | 100nF  | 805       | MuRata       | $0.311 | $0.31  | [Link](https://cz.mouser.com/ProductDetail/Murata-Electronics/GCM21BR71H104KA37L?qs=HH0X151LQklyB3m9dD31Bw%3D%3D) |
+| Cin1, Cin2       | 2        | 10uF   | 805       | MuRata       | $0.151 | $0.30  | [Link](https://cz.mouser.com/ProductDetail/Murata-Electronics/GRM21BR61E106MA73L?qs=2W5sgKM%2F371odLMyCilkag%3D%3D&utm_id=9873308831&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=CjwKCAjw-qi_BhBxEiwAkxvbkB1r2SfjgGCUguh6nqfyVJQ4) |
 | Css1             | 1        | 22nF   | 402       | MuRata       | $0.100 | $0.10  | [Link](https://rb.gy/cotiv2) |
 
 ### ICs
