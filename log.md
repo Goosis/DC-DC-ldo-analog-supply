@@ -28,3 +28,10 @@
   - Ensured proper grounding and component orientation for thermal performance and efficiency.
   - **Fixed errors** related to component placement in the layout for power and ground planes.
 - **No major issues** found in the design; proceeding with the next steps of layout design and preparation for PCB.
+
+### Day 3 – March 31
+
+- Finalized full BOM for the power subsystem  
+- Fixed EN pin bug on the buck converter (added voltage divider from Vin)  
+- Created custom net classes in KiCad (`Buck_Power`, `LDO_Signal`, etc.)  
+- Assigned nets and set trace widths based on datasheet recommendations  
