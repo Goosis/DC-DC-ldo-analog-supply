@@ -2,7 +2,7 @@
 
 | Reference         | Quantity | Value | Footprint | Manufacturer | Price  | Total  | Link |
 |------------------|----------|--------|-----------|--------------|--------|--------|------|
-| Cff1             | 1        | 150pF  | 603       | KEMET        | $0.100 | $0.10  | [Link](Link) |
+| Cff1             | 1        | 150pF  | 603       | KEMET        | $0.100 | $0.10  | [Link](https://cz.mouser.com/ProductDetail/Coilcraft/MSS1048-472NLC?qs=zCSbvcPd3pYtZ57pXl6AJA==) |
 | Cout1,Cout2      | 2        | 47uF   | 1206      | TDK          | $0.871 | $1.74  | [Link](Link) |
 | Cout3,Cout4      | 2        | 10uF   | 805       | TAIYO YUDEN  | $0.271 | $0.54  | [Link](Link) |
 | Cboot1           | 1        | 100nF  | 402       | Murata       | $0.100 | $0.10  | [Link](https://rb.gy/s34zjx) |
