@@ -35,3 +35,10 @@
 - Fixed EN pin bug on the buck converter (added voltage divider from Vin)  
 - Created custom net classes in KiCad (`Buck_Power`, `LDO_Signal`, etc.)  
 - Assigned nets and set trace widths based on datasheet recommendations  
+
+**Day 4 – April 1**  
+- Placed components for the TPS56837H on the PCB.  
+- Decided to replace the connectors, as the current ones are too large for a compact layout.  
+- Changed the inductor footprint to match the selected model.  
+- Marked several capacitors and resistors (0805) to be replaced with 0402 packages for space optimization and better routing.  
+→ Will update these footprints and revise the BOM tomorrow.
