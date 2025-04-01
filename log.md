@@ -39,6 +39,6 @@
 **Day 4 – April 1**  
 - Placed components for the TPS56837H on the PCB.  
 - Decided to replace the connectors, as the current ones are too large for a compact layout.  
-- Changed the inductor footprint to match the selected model.  
+- Replaced the inductor entirely — the previous one was too large, and the new one is $2 cheaper.
 - Marked several capacitors and resistors (0805) to be replaced with 0402 packages for space optimization and better routing.  
 → Will update these footprints and revise the BOM tomorrow.
