@@ -22,7 +22,8 @@
 
 | Reference | Quantity | Value | Footprint      | Manufacturer | Price  | Total  | Link |
 |-----------|----------|--------|----------------|--------------|--------|--------|------|
-| L1        | 1        | 4.7uH  | MSS1048472NLC | TDK    | $0.912 | $0.912  | [Link](https://eu.mouser.com/ProductDetail/TDK/SPM6530T-4R7M?qs=chjFIDm9dbpOGKMR3qNvlw%3D%3D&srsltid=AfmBOoqVbiLCndpKAL7GWJ1QUSo2v6vkROUau8GD2DFmovGrmOw4UC6J) |
+| L1        | 1        | 4.7uH  | SPM6530 | TDK    | $0.912 | $0.912  | [Link](https://eu.mouser.com/ProductDetail/TDK/SPM6530T-4R7M?qs=chjFIDm9dbpOGKMR3qNvlw%3D%3D&srsltid=AfmBOoqVbiLCndpKAL7GWJ1QUSo2v6vkROUau8GD2DFmovGrmOw4UC6J) |
+| J1, J2, J3  | 3        | 2 pins  | - | TDK    | $0.228 | $0.684  | [Link](https://eu.mouser.com/ProductDetail/Molex/26-60-4020?qs=ZwgtpdmWYYSCkM5sV%252BTTVQ%3D%3D&utm_id=20109199427&utm_source=google&utm_medium=cpc&utm_marketing_tactic=emeacorp&gad_source=1&gclid=Cj0KCQjwna6_BhCbARIsALId2Z1TKAPd5AStFBjx6H46WuCbjFjCxwxaaDShFbwlQgHy8v6vKuIZAXcaAvPBEALw_wcB) |
 
 ### Resistors
 
@@ -37,4 +38,4 @@
 | R1                       | 1        | 12.1kOhm  | 0805      | VishayDale   | $0.100 | $0.10  | [Link](https://cz.mouser.com/ProductDetail/Vishay-Dale/CRCW080512K1FKTA?qs=f9V0R1Mtsf0Yr4%252BYyWfajQ%3D%3D) |
 | Rmode1                   | 1        | 30.1kOhm  | 0805      | KOA Speer    | $0.233 | $0.23  | [Link](https://cz.mouser.com/ProductDetail/KOA-Speer/SG73P2ARTTD3012F?qs=Y0Uzf4wQF3ldSzmG%252BQ6ZTQ%3D%3D) |
 
-**Total Cost: $11,782**
+**Total Cost: $12,466**
