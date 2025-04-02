@@ -42,3 +42,12 @@
 - Replaced the inductor entirely — the previous one was too large, and the new one is $2 cheaper.
 - Marked several capacitors and resistors (0805) to be replaced with 0402 packages for space optimization and better routing.  
 → Will update these footprints and revise the BOM tomorrow.
+
+### Day 5 – April 2
+
+- Had a productive 7-hour session today.  
+- Completed component placement in sections and connected all components.  
+- Changed the CBOOT1 capacitor package from 0402 to 0603 to comply with clearance rules.  
+- Encountered footprint issues for ICs – learned how to modify footprints using the footprint editor.  
+- Learned to work with a 4-layer PCB stackup.  
+- Tomorrow: will label all components clearly and update the BOM.
