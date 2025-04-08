@@ -34,8 +34,8 @@ This PCB layout was designed by following layout principles from the **TPS56837H
 
 <table>
   <tr>
-    <td><b>TI Recommended Layout</b><br/><img src="img/ti_layout.png" width="400"/></td>
-    <td><b>My PCB Layout (KiCad)</b><br/><img src="img/pcb_top.png" width="600"/></td>
+    <td><b>TI Recommended Layout</b><br/><img src="img/tps56837h_layout_example.png" width="400"/></td>
+    <td><b>My PCB Layout (KiCad)</b><br/><img src="img/top_PCB.png" width="600"/></td>
   </tr>
 </table>
 
