@@ -51,13 +51,13 @@ This PCB layout was designed by following layout principles from the **TPS56837H
 ## 🖼️ Images
 
 ### Schematic  
-*(Insert schematic screenshot here as img/schematic.png)*
+![schematic](img/schematic.png)
 
 ### PCB Layout (Top Layer)  
 ![PCB Top Layer](img/pcb_top.png)
 
 ### 3D View  
-*(Insert 3D render here as img/3d_view.png)*
+![3d_viev](img/3D_PCB.png)
 
 ---
 
