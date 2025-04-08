@@ -10,60 +10,71 @@
 
 ## 🧩 Description
 
-This is a compact two-stage regulated power supply. It efficiently converts a 6–10V input into two stable output voltages using a synchronous DC-DC buck converter followed by a low-noise LDO. Designed for powering sensitive analog or mixed-signal circuits.
+This is a compact, efficient two-stage power supply designed for low-noise and high-current applications. It converts a 6–10V DC input into:
 
-All design steps were based on TI datasheets, layout guides, and simulation tools. Component values were calculated manually and cross-checked with online calculators.
+- 4V @ 3.5A via DC-DC Buck (TPS56837H)
+- 2.6V @ 1.7A via LDO (TPS7A53B)
+
+The design was based on official **Texas Instruments datasheets**, simulation tools, and PCB manufacturer guidelines. Great care was taken in layout, thermal management, and ground isolation.
 
 ---
 
 ## 🔧 Key Components
 
-| Stage | IC           | Vin     | Vout  | Iout Max | Notes                        |
-|-------|--------------|---------|-------|----------|------------------------------|
-| Buck  | TPS56837H    | 6–10V   | 4V    | 3.5 A    | Main converter, 500 kHz      |
-| LDO   | TPS7A53B     | 4V (from buck) | 2.6V | 1.7 A    | Low-noise output for analog  |
+| Stage | IC           | Vin         | Vout | Iout Max | Notes                        |
+|-------|--------------|-------------|------|----------|------------------------------|
+| Buck  | TPS56837H    | 6–10 V      | 4 V  | 3.5 A    | Synchronous, 500 kHz         |
+| LDO   | TPS7A53B     | 4 V         | 2.6 V| 1.7 A    | Ultra-low noise, high PSRR   |
+
+---
+
+## 📐 Layout Design vs TI Recommendation
+
+This PCB layout was designed by following layout principles from the **TPS56837H datasheet**.
+
+<table>
+  <tr>
+    <td><b>TI Recommended Layout</b><br/><img src="img/ti_layout.png" width="400"/></td>
+    <td><b>My PCB Layout (KiCad)</b><br/><img src="img/pcb_top.png" width="600"/></td>
+  </tr>
+</table>
+
+🛠️ **Matched Design Features:**
+- Short loops for high-current paths (Cin → SW → Inductor → Cout)
+- Correct placement of decoupling capacitors near IC pins
+- AGND and PGND separation via internal planes and via stitching
+- Wide copper traces sized according to 3.5A requirement
+- Respect of layout zones for analog feedback and control
 
 ---
 
 ## 🖼️ Images
 
+### Schematic  
+*(Insert schematic screenshot here as img/schematic.png)*
+
 ### PCB Layout (Top Layer)  
 ![PCB Top Layer](img/pcb_top.png)
 
-### Schematic  
-*(Insert screenshot here)*
-
 ### 3D View  
-*(Insert 3D render from KiCad here)*
-
----
-
-## 📐 Implementation Notes
-
-Design follows TI layout recommendations:
-
-- Short loop area for buck inductor-capacitor paths
-- LDO input placed close to buck output, minimal trace impedance
-- Wide copper traces and vias sized for 3.5 A current
-- Power and analog grounds separated
-- Decoupling capacitors placed tightly near IC supply pins
+*(Insert 3D render here as img/3d_view.png)*
 
 ---
 
 ## 📁 Project Files
 
-- `/schematic/` — KiCad schematic files  
-- `/pcb/` — KiCad board layout  
-- `/gerbers/` — Fabrication output files  
-- `/bom/` — Bill of Materials (CSV/Excel)  
-- `/pdf/` — Printable schematic and layout
+- `/schematic/` — KiCad schematic (`.kicad_sch`)  
+- `/pcb/` — KiCad board layout (`.kicad_pcb`)  
+- `/gerbers/` — Gerber files for fabrication  
+- `/bom/` — Bill of Materials  
+- `/pdf/` — PDF exports of schematic and layout
 
 ---
 
 ## 🧮 Tools & Calculators Used
 
 - [TI Webench Power Designer](https://webench.ti.com/power-designer/)
-- [Voltage Divider Calculator (ChipDip)](https://www.chipdip.ru/calc/voltage-divider)
+- [ChipDip Voltage Divider Calculator](https://www.chipdip.ru/calc/voltage-divider)
 - [Trace Width Calculator (AdvancedPCB)](https://www.advancedpcb.com/en-us/tools/trace-width-calculator/)
 - [Via Properties Calculator (911EDA)](https://www.911eda.com/pcb-design-calculators/via-properties-calculator/)
 - [JLCPCB Capabilities](https://jlcpcb.com/capabilities/pcb-capabilities)
@@ -72,12 +83,13 @@ Design follows TI layout recommendations:
 
 ## ✅ Project Status
 
-- [x] Schematic completed  
-- [x] PCB routed (4 layers)  
+- [x] Schematic complete  
+- [x] PCB layout finished  
 - [x] BOM generated  
-- [ ] Prototype ordered  
-- [ ] Testing (load + thermal)  
-- [ ] Oscilloscope ripple analysis
+- [x] Layout verified vs datasheet  
+- [ ] PCB ordered  
+- [ ] Load testing  
+- [ ] Ripple and thermal validation
 
 ---
 
@@ -85,8 +97,8 @@ Design follows TI layout recommendations:
 
 - [TPS56837H Datasheet](https://www.ti.com/product/TPS56837H)
 - [TPS7A53B Datasheet](https://www.ti.com/product/TPS7A53B)
-- [KiCad Documentation](https://docs.kicad.org/)
+- [KiCad Docs](https://docs.kicad.org/)
 
 ---
 
-> 💡 If you're an engineer reviewing this: feel free to suggest layout or thermal improvements. Project still evolving.
+> 💬 Suggestions, improvements, or critiques are welcome. This design is still open for review.
