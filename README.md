@@ -57,7 +57,44 @@ This PCB layout was designed by following layout principles from the **TPS56837H
 ![PCB Top Layer](img/top_PCB.png)
 
 ### 3D View  
-![3d_viev](img/3D_PCB.png)
+![3D View](img/3D_PCB.png)
+
+---
+
+## ⚠️ Design Challenges & Fixes
+
+### ⚠️ LDO BIAS Pin Not Connected
+
+In the first revision, the **BIAS pin** of the LDO (TPS7A53B) was left floating.  
+According to [section 8.3.1.2 of the datasheet](https://www.ti.com/lit/ds/symlink/tps7a53b.pdf#page=19), this causes the output to **follow the input voltage** instead of regulating — which is exactly what happened.
+
+📌 **Fix:** Connected BIAS to VIN (4 V) and added a 1 µF capacitor to GND, as recommended in the datasheet.
+
+---
+
+### ⚠️ Incorrect EN Pin Logic on Buck Converter
+
+Initially, the **EN pin** of the buck converter was connected to its own output (VOUT), assuming it would enable itself after power-up.  
+However, this caused the converter to stay disabled at startup.
+
+📌 **Fix:** Connected EN to VIN through a **resistor divider**, ensuring a valid logic-high signal at startup. This resolved the issue and allowed proper converter initialization.
+
+---
+
+### ⚠️ TI-Provided Footprint Had Pad Issues
+
+The **footprint from TI's UltraLibrarian export** for the TPS7A53B had issues:
+- Some **pads were incorrectly shaped or numbered**
+- **Routing was blocked** due to KiCad DRC violations
+
+📌 **Fix:** Manually edited the footprint in **KiCad Footprint Editor** to:
+- Adjust pad shapes and positions
+- Fix pin numbering
+- Ensure proper copper connection and DRC clearance
+
+---
+
+These issues were identified during layout review and early testing, and fixed in preparation for the next board revision.
 
 ---
 
