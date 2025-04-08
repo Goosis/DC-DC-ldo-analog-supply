@@ -51,3 +51,10 @@
 - Encountered footprint issues for ICs – learned how to modify footprints using the footprint editor.  
 - Learned to work with a 4-layer PCB stackup.  
 - Tomorrow: will label all components clearly and update the BOM.
+
+- ### Day 6 – April 4
+- Updated BOM
+
+- ### Day 6 – April 4
+- Completed README.md
+- Uploaded files to github
