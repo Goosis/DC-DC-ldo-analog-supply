@@ -47,6 +47,24 @@ This PCB layout was designed by following layout principles from the **TPS56837H
 - Respect of layout zones for analog feedback and control
 
 ---
+---
+
+## 🧪 PSpice Simulation
+
+The design was simulated in PSpice using vendor-provided models for both the buck converter (TPS56837H) and LDO (TPS7A5301).  
+This helped verify soft-start behavior, regulation stability, and output timing before fabrication.
+
+<table>
+  <tr>
+    <td><b>Schematic (PSpice)</b><br/><img src="img/pspice_schematic.png" width="500"/></td>
+    <td><b>Simulation Result</b><br/><img src="img/pspice_simulation_result.png" width="600"/></td>
+  </tr>
+</table>
+
+Green = Vout1 (4 V)  
+Red = Vout2 (2.6 V)
+
+The simulation shows proper soft-start ramp-up and sequential regulation, matching expectations.
 
 ## 🖼️ Images
 
