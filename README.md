@@ -1,4 +1,4 @@
-# ⚡ Dual-Stage Power Supply (DC-DC Buck + LDO)
+#  Dual-Stage Power Supply (DC-DC Buck + LDO)
 
 **Input:** 6–10V DC  
 **Output 1:** 4V @ 3.5A (Buck Converter)  
@@ -8,7 +8,7 @@
 
 ---
 
-## 🧩 Description
+##  Description
 
 This is a compact, efficient two-stage power supply designed for low-noise and high-current applications. It converts a 6–10V DC input into:
 
@@ -19,7 +19,7 @@ The design was based on official **Texas Instruments datasheets**, simulation to
 
 ---
 
-## 🔧 Key Components
+##  Key Components
 
 | Stage | IC           | Vin         | Vout | Iout Max | Notes                        |
 |-------|--------------|-------------|------|----------|------------------------------|
@@ -28,7 +28,7 @@ The design was based on official **Texas Instruments datasheets**, simulation to
 
 ---
 
-## 📐 Layout Design vs TI Recommendation
+##  Layout Design vs TI Recommendation
 
 This PCB layout was designed by following layout principles from the **TPS56837H datasheet**.
 
@@ -39,7 +39,7 @@ This PCB layout was designed by following layout principles from the **TPS56837H
   </tr>
 </table>
 
-🛠️ **Matched Design Features:**
+ **Matched Design Features:**
 - Short loops for high-current paths (Cin → SW → Inductor → Cout)
 - Correct placement of decoupling capacitors near IC pins
 - AGND and PGND separation via internal planes and via stitching
@@ -49,7 +49,7 @@ This PCB layout was designed by following layout principles from the **TPS56837H
 ---
 ---
 
-## 🧪 PSpice Simulation
+##  PSpice Simulation
 
 The design was simulated in PSpice using vendor-provided models for both the buck converter (TPS56837H) and LDO (TPS7A5301).  
 This helped verify soft-start behavior, regulation stability, and output timing before fabrication.
@@ -68,7 +68,7 @@ The simulation shows proper soft-start ramp-up and sequential regulation, matchi
 
 Simulation files are aviable on my [Google Drive](https://drive.google.com/drive/folders/1zhOBsbE7j7mKasGqCcKV4JfBKCOTLMK9?hl=cs)
 
-## 🖼️ Images
+##  Images
 
 ### Schematic  
 ![schematic](img/schematic.png)
@@ -83,7 +83,7 @@ Simulation files are aviable on my [Google Drive](https://drive.google.com/drive
 
 ## ⚠️ Design Challenges & Fixes
 
-### ⚠️ LDO BIAS Pin Not Connected
+###  LDO BIAS Pin Not Connected
 
 In the first revision, the **BIAS pin** of the LDO (TPS7A53B) was left floating.  
 According to [section 8.3.1.2 of the datasheet](https://www.ti.com/lit/ds/symlink/tps7a53b.pdf#page=19), this causes the output to **follow the input voltage** instead of regulating — which is exactly what happened.
@@ -92,7 +92,7 @@ According to [section 8.3.1.2 of the datasheet](https://www.ti.com/lit/ds/symlin
 
 ---
 
-### ⚠️ Incorrect EN Pin Logic on Buck Converter
+###  Incorrect EN Pin Logic on Buck Converter
 
 Initially, the **EN pin** of the buck converter was connected to its own output (VOUT), assuming it would enable itself after power-up.  
 However, this caused the converter to stay disabled at startup.
@@ -101,7 +101,7 @@ However, this caused the converter to stay disabled at startup.
 
 ---
 
-### ⚠️ TI-Provided Footprint Had Pad Issues
+###  TI-Provided Footprint Had Pad Issues
 
 The **footprint from TI's UltraLibrarian export** for the TPS7A53B had issues:
 - Some **pads were incorrectly shaped or numbered**
@@ -118,7 +118,7 @@ These issues were identified during layout review and early testing, and fixed i
 
 ---
 
-## 📁 Project Files
+##  Project Files
 
 - `/schematic/` — KiCad schematic (`.kicad_sch`)  
 - `/pcb/` — KiCad board layout (`.kicad_pcb`)  
@@ -128,7 +128,7 @@ These issues were identified during layout review and early testing, and fixed i
 
 ---
 
-## 🧮 Tools & Calculators Used
+##  Tools & Calculators Used
 
 - [TI Webench Power Designer](https://webench.ti.com/power-designer/)
 - [ChipDip Voltage Divider Calculator](https://www.chipdip.ru/calc/voltage-divider)
