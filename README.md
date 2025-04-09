@@ -65,7 +65,8 @@ Green = Vout1 (4 V)
 Red = Vout2 (2.6 V)
 
 The simulation shows proper soft-start ramp-up and sequential regulation, matching expectations.
-Simulation files are aviable on my [Google Drive](https://drive.google.com/drive/folders/1zhOBsbE7j7mKasGqCcKV4JfBKCOTLMK9?hl=cs)_
+
+Simulation files are aviable on my [Google Drive](https://drive.google.com/drive/folders/1zhOBsbE7j7mKasGqCcKV4JfBKCOTLMK9?hl=cs)
 
 ## 🖼️ Images
 
